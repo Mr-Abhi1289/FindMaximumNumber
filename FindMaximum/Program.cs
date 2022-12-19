@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            int max = MaxInt.FindMax(20, 40, 60);
+            string max = MaxString.FindMax("banana","orange","Apple");
             Console.WriteLine(max);
         }
     }
