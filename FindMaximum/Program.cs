@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            float max = MaxFloat.FindMax(20.50f, 40.60f, 60.70f);
+            int max = MaxInt.FindMax(20, 40, 60);
             Console.WriteLine(max);
         }
     }
